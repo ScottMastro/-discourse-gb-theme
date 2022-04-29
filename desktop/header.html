@@ -175,67 +175,89 @@ $( document ).ready(function() {
 	var infotext = "";
 	var flavortext = "";
 	document.getElementById("character-info-no").innerHTML = "No.".concat(String(num).padStart(3, '0'));
+ 	
+	function replace_city(x) {
+	   x=x.toString();
+	   var classStr = document.getElementById("city-image").getAttribute("class");
+	   classStr = classStr.replace(/city-img-\d+/g, "city-img-".concat(x));
+	   document.getElementById("city-image").setAttribute("class", classStr);
+	}
 
 	switch(num) {
 	case 1:
 		infotext="BULBASAUR<br>SEED<br>HT 2'04\"<br>WT 15.2lb";
 		flavortext="A strange seed was planted on its back at birth. The plant sprouts and grows with this POKéMON.";
+		replace_city(11);		
 		break;
 	case 2:
 		infotext="IVYSAUR<br>SEED<br>HT 3'03\"<br>WT 28.7lb";
 		flavortext="When the bulb on its back grows large, it appears to lose the ability to stand on its hind legs.";
+		replace_city(11);		
 		break;
 	case 3:
 		infotext="VENUSAUR<br>SEED<br>HT 6'07\"<br>WT 220.5lb";
 		flavortext="The plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.";
+		replace_city(11);		
 		break;
 	case 4:
 		infotext="CHARMANDER<br>LIZARD<br>HT 1'12\"<br>WT 18.7lb";
 		flavortext="Obviously prefers hot places. When it rains, steam is said to spout from the tip of its tail.";
+		replace_city(11);		
 		break;
 	case 5:
 		infotext="CHARMELEON<br>FLAME<br>HT 3'07\"<br>WT 41.9lb";
 		flavortext="When it swings its burning tail, it elevates the temperature to unbearably high levels.";
+		replace_city(11);		
 		break;
 	case 6:
 		infotext="CHARIZARD<br>FLAME<br>HT 5'07\"<br>WT 199.5lb";
 		flavortext="Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.";
+		replace_city(11);		
 		break;
 	case 7:
 		infotext="SQUIRTLE<br>TINY TURTLE<br>HT 1'08\"<br>WT 19.8lb";
 		flavortext="After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.";
+		replace_city(11);		
 		break;
 	case 8:
 		infotext="WARTORTLE<br>TURTLE<br>HT 3'03\"<br>WT 49.6lb";
 		flavortext="Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.";
+		replace_city(11);		
 		break;
 	case 9:
 		infotext="BLASTOISE<br>SHELLFISH<br>HT 5'03\"<br>WT 188.5lb";
 		flavortext="A brutal POKéMON with pressurized water jets on its shell. They are used for high speed tackles.";
+		replace_city(11);		
 		break;
 	case 10:
 		infotext="CATERPIE<br>WORM<br>HT 0'12\"<br>WT 6.4lb";
 		flavortext="Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.";
+		replace_city(12);		
 		break;
 	case 11:
 		infotext="METAPOD<br>COCOON<br>HT 2'04\"<br>WT 21.8lb";
 		flavortext="This POKéMON is vulnerable to attack while its shell is soft, exposing its weak and tender body.";
+		replace_city(12);		
 		break;
 	case 12:
 		infotext="BUTTERFREE<br>BUTTERFLY<br>HT 3'07\"<br>WT 70.5lb";
 		flavortext="In battle, it flaps its wings at high speed to release highly toxic dust into the air.";
+		replace_city(12);		
 		break;
 	case 13:
 		infotext="WEEDLE<br>HAIRY BUG<br>HT 0'12\"<br>WT 7.1lb";
 		flavortext="Often found in forests, eating leaves. It has a sharp venomous stinger on its head.";
+		replace_city(12);		
 		break;
 	case 14:
 		infotext="KAKUNA<br>COCOON<br>HT 1'12\"<br>WT 22.0lb";
 		flavortext="Almost incapable of moving, this POKéMON can only harden its shell to protect itself from predators.";
+		replace_city(12);		
 		break;
 	case 15:
 		infotext="BEEDRILL<br>POISON BEE<br>HT 3'03\"<br>WT 65.0lb";
 		flavortext="It has three poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly.";
+		replace_city(12);		
 		break;
 	case 16:
 		infotext="PIDGEY<br>TINY BIRD<br>HT 0'12\"<br>WT 4.0lb";
@@ -276,10 +298,12 @@ $( document ).ready(function() {
 	case 25:
 		infotext="PIKACHU<br>MOUSE<br>HT 1'04\"<br>WT 13.2lb";
 		flavortext="When several of these POKéMON gather, their electricity could build and cause lightning storms.";
+		replace_city(12);		
 		break;
 	case 26:
 		infotext="RAICHU<br>MOUSE<br>HT 2'07\"<br>WT 66.1lb";
 		flavortext="Its long tail serves as a ground to protect itself from its own high voltage power.";
+		replace_city(3);		
 		break;
 	case 27:
 		infotext="SANDSHREW<br>MOUSE<br>HT 1'12\"<br>WT 26.5lb";
@@ -780,9 +804,7 @@ $( document ).ready(function() {
 	case 151:
 		infotext="MEW<br>NEW SPECIES<br>HT 1'04\"<br>WT 8.8lb";
 		flavortext="So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide.";
-		var classStr = document.getElementById("city-image").getAttribute("class");
-		classStr = classStr.replace(/city-img-\d+/g, "city-img-0");
-		document.getElementById("city-image").setAttribute("class", classStr);
+		replace_city(0);
 		break;
 	default:
 		infotext="MISSINGNO<br>???<br>10'00\"<br>3507.2lb";
