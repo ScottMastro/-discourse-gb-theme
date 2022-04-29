@@ -9,7 +9,7 @@
   "maximum_discourse_version": null,
   "assets": {
    "gb-font": "assets/PKMN RBYGSC EXTENDED.ttf",
-   "gb-border": "assets/gb.svg",
+   "gb-text-border": "assets/text_border.svg",
    "gb-border-top-fix1": "assets/gb_top_left.svg",
    "gb-border-top-fix2": "assets/gb_top_center.svg",
    "gb-border-top-fix3": "assets/gb_top_right.svg",
