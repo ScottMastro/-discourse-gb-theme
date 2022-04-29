@@ -191,7 +191,7 @@
    "city-12": "assets/maps/viridian_forest.png",
    "city-13": "assets/maps/cinnabar_island.png",
    "city-0": "assets/maps/vermillion_port.png",
-   "text-border": "assets/text_border.svg",
+   "text-border": "assets/text_border.png",
    "dex-border": "assets/dex_border.png",
    "glitch-layer": "assets/missingno.png"
   },
