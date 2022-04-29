@@ -233,9 +233,7 @@ html{
   background-position: -3px 0;
   background-repeat: no-repeat;
   background-size: auto 93.5px;
-
 }
-
 
 /* -----------------------------------GBLEFT */
 
@@ -245,9 +243,27 @@ html{
   display: flex;
   flex-direction:column;
 }
-.gb-left-img-hfill {
-  height: 100%;
-  max-width: 93.2px;
+
+.gb-left-border-flex-t{
+  background-image:url($gb-border-left-flex);
+  height: 93.2px; 
+  margin-top: -3px;
+  margin-bottom: -3px;
+  background-size: 93.2px 7px;
+}
+.gb-left-border-fix-m{
+  background-image:url($gb-border-left-fix);
+  height: 93.2px;
+  width: 190px;
+  background-repeat: no-repeat;
+  background-size: 93.2px auto;
+}
+.gb-left-border-flex-b{
+  background-image:url($gb-border-left-flex);
+  height: 93.2px; 
+  margin-top: -3px;
+  margin-bottom: -3px;
+  background-size: 93.2px 7px;
 }
 
 /* -----------------------------------GBRIGHT */
@@ -263,8 +279,6 @@ html{
   width: 78.36px;
   height: 100%;
 }
-
-
 
 /* -----------------------------------Aesthetics */
 
