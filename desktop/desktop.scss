@@ -290,7 +290,7 @@ html{
 
 .cooked{
   border: 20px solid #ffffff;
-  border-image: url("https://i.imgur.com/BaynOhr.png") 38 round;
+  border-image: url($text-border) 38 round;
 }
 .category-box{
   border-color: grey !important;
