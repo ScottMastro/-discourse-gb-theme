@@ -251,8 +251,15 @@ html{
   margin-bottom: -3px;
   background-size: 93.2px 7px;
 }
-.gb-left-border-fix-m{
-  background-image:url($gb-border-left-fix);
+.gb-left-border-fix-on{
+  background-image:url($gb-border-left-fix-on);
+  height: 93.2px;
+  width: 190px;
+  background-repeat: no-repeat;
+  background-size: 93.2px auto;
+}
+.gb-left-border-fix-off{
+  background-image:url($gb-border-left-fix-off);
   height: 93.2px;
   width: 190px;
   background-repeat: no-repeat;

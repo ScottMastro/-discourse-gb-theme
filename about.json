@@ -18,7 +18,7 @@
    "gb-border-bottom-fix2": "assets/gb_bottom_right.svg",
    "gb-border-bottom-flex": "assets/gb_bottom_slice.svg",
    "gb-border-right-flex": "assets/gb_right.svg",
-   "gb-border-left-fix": "assets/gb_left_top.svg",
+   "gb-border-left-fix-on": "assets/gb_left_top.svg",
    "gb-border-left-fix-off": "assets/gb_left_top_off.svg",
    "gb-border-left-flex": "assets/gb_left_slice.svg",
    "bg-pokemon-0": "assets/pkmn/0.png",

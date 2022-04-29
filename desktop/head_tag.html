@@ -24,12 +24,14 @@ $( document ).ready(function() {
 
 		if (button.classList.contains("gb-button-on")){
 			document.getElementById("gb-dark-screen").classList.remove("overlay-invisible");
-		 	document.getElementById("gb-battery").src = "https://svgshare.com/i/g7f.svg";
+		 	document.getElementById("gb-battery").classList.remove("gb-left-border-fix-on");
+		 	document.getElementById("gb-battery").classList.add("gb-left-border-fix-off");
 			button.classList.remove("gb-button-on");
 			button.classList.add("gb-button-off");
 		}else{
 			document.getElementById("gb-dark-screen").classList.add("overlay-invisible");
-		 	document.getElementById("gb-battery").src = "https://svgshare.com/i/g82.svg";
+		 	document.getElementById("gb-battery").classList.remove("gb-left-border-fix-off");
+		 	document.getElementById("gb-battery").classList.add("gb-left-border-fix-on");
 			button.classList.remove("gb-button-off");
 			button.classList.add("gb-button-on");
 		}	
