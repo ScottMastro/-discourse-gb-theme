@@ -253,18 +253,14 @@ html{
 /* -----------------------------------GBRIGHT */
 .gb-right{
   height: 100%; 
-  width: 78.36px;
+  width: 85.36px;
   display: flex;
   flex-direction:column;
-}
-.gb-right-img-hfill {
-
-
 }
 
 .gb-right-border-flex-m{
   background-image:url($gb-border-right-flex);
-  width: 78.36px;
+  width: 85.36px;
   height: 100%;
 }
 
