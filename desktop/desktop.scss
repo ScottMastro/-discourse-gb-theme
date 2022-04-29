@@ -166,10 +166,6 @@ html{
   width: 100%;
   display: flex;
 }
-.gb-top-img-vfill {
-  width: 100%;
-  max-height: 102.1px;
-}
 
 .gb-top-border-fix-l{
   background-image:url($gb-border-top-fix1);
@@ -213,10 +209,6 @@ html{
 .gb-bottom{
   width: 100%;
   display: flex;
-  max-height: 93.5px;
-}
-.gb-bottom-img-vfill {
-  width: 100%;
   max-height: 93.5px;
 }
 
@@ -265,10 +257,16 @@ html{
   display: flex;
   flex-direction:column;
 }
-.gb-right-img-hfill {
-  height: 100%;
-  max-width: 78.36px;
+
+.gb-right-border-flex-m{
+  background-image:url($gb-border-right-flex);
+  width: 78.36px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  background-size: 78.36px 7px;
 }
+
+
 
 /* -----------------------------------Aesthetics */
 
