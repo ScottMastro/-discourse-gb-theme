@@ -174,7 +174,7 @@ html{
 .gb-top-border-fix-l{
   background-image:url($gb-border-top-fix1);
   height: 102.1px; 
-  width:123px; 
+  width: 123px; 
   background-repeat: no-repeat;
   background-size: auto 102.1px;
 }
@@ -222,19 +222,22 @@ html{
 
 .gb-bottom-border-fix-l{
   background-image:url($gb-border-bottom-fix1);
-  height: 93.5px; 
+  height: 93.5px;
+  width: 190px;
   background-repeat: no-repeat;
   background-size: auto 93.5px;
 }
 .gb-bottom-border-flex-m{
   background-image:url($gb-border-bottom-flex);
   height: 93.5px; 
-  margin-left: -1px;
+  margin-left: -3px;
+  margin-right: -3px;
   background-size: 7px 93.5px;
 }
 .gb-bottom-border-fix-r{
   background-image:url($gb-border-bottom-fix2);
   height: 93.5px;
+  width: 204px;
   background-position: -3px 0;
   background-repeat: no-repeat;
   background-size: auto 93.5px;
