@@ -9,7 +9,6 @@
   "maximum_discourse_version": null,
   "assets": {
    "gb-font": "assets/PKMN RBYGSC EXTENDED.ttf",
-   "gb-text-border": "assets/text_border.svg",
    "gb-border-top-fix1": "assets/gb_top_left.svg",
    "gb-border-top-fix2": "assets/gb_top_center.svg",
    "gb-border-top-fix3": "assets/gb_top_right.svg",
@@ -192,6 +191,7 @@
    "city-12": "assets/maps/viridian_forest.png",
    "city-13": "assets/maps/cinnabar_island.png",
    "city-0": "assets/maps/vermillion_port.png",
+   "text-border": "assets/text_border.svg",
    "dex-border": "assets/dex_border.png",
    "glitch-layer": "assets/missingno.png"
   },
