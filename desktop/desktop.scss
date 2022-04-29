@@ -257,13 +257,15 @@ html{
   display: flex;
   flex-direction:column;
 }
+.gb-right-img-hfill {
+
+
+}
 
 .gb-right-border-flex-m{
   background-image:url($gb-border-right-flex);
   width: 78.36px;
-  margin-top: -3px;
-  margin-bottom: -3px;
-  background-size: 78.36px 7px;
+  height: 100%;
 }
 
 
