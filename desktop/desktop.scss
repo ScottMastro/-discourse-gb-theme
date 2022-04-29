@@ -1,3 +1,4 @@
+@import 'variables';
 
 @font-face {
   font-family: 'PKMN';
@@ -11,14 +12,6 @@ $base-font-family: 'PKMN', sans-serif;
 html{
   font-size: 0.9em;
 }
-
-$color-white: #ffffff;
-$color-black: #000000;
-$color-slate: #4d4d4d;
-$color-gray: #808080;
-$color-tan: #a1b6b4;
-$color-sea-green: #BFD4C3;
-$color-light-gray: #b3b3b3;
 
 .overlay-invisible{ display:none }
 
