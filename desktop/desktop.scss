@@ -59,7 +59,7 @@ html{
 .footer-dex-border {
   display: flex;
   border: 20px solid #ffffff;
-  border-image: url(https://i.imgur.com/BaynOhr.png) 38 round;
+  border-image: url($dex-border) 38 round;
 }
 .map-piece {
   display: flex;
@@ -129,6 +129,48 @@ html{
 .gb-flex2  { flex: 2 2 auto; }
 .gb-flex5  { flex: 5 5 auto; }
 .gb-flex10 { flex: 10 10 auto; }
+
+.gb-top-border-fix-l{
+  background-image:url('https://svgshare.com/i/feD.svg');
+  height: 100px; width:123px; 
+  background-repeat: no-repeat
+  background-size: auto 102px;
+}
+.gb-top-border-flex-l{
+  background-image:url('https://svgshare.com/i/fge.svg');
+  height: 100px; 
+  margin-left:-1px ;
+  background-size: 7px 102px";
+}
+.gb-top-border-fix-m{
+  background-image:url('https://svgshare.com/i/fgL.svg');
+  height: 100px;
+  width: 224px;
+  background-position: -3px 0;
+  margin-right: -3px; 
+  background-repeat: no-repeat;
+  background-size: auto 102px;
+}
+.gb-top-border-flex-r{
+  background-image:url('https://svgshare.com/i/fge.svg'); 
+  height: 100px;
+  margin-left:-3px;
+  margin-right: -3px;
+  background-size: 7px 102px;
+}
+.gb-top-border-fix-r{
+  background-image:url('https://svgshare.com/i/fff.svg');
+  height: 100px;
+  width:59px;
+  background-position: -3px 0;
+  background-repeat: no-repeat;
+  background-size: auto 102px;
+
+}
+
+
+
+
 
 /* -----------------------------------GBOFF */
 .gb-button{
