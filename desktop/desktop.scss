@@ -132,14 +132,15 @@ html{
 
 .gb-top-border-fix-l{
   background-image:url('https://svgshare.com/i/feD.svg');
-  height: 100px; width:123px; 
-  background-repeat: no-repeat
+  height: 100px; 
+  width:123px; 
+  background-repeat: no-repeat;
   background-size: auto 102px;
 }
 .gb-top-border-flex-l{
   background-image:url('https://svgshare.com/i/fge.svg');
   height: 100px; 
-  margin-left:-1px ;
+  margin-left: -1px;
   background-size: 7px 102px;
 }
 .gb-top-border-fix-m{
@@ -154,14 +155,14 @@ html{
 .gb-top-border-flex-r{
   background-image:url('https://svgshare.com/i/fge.svg'); 
   height: 100px;
-  margin-left:-3px;
+  margin-left: -3px;
   margin-right: -3px;
   background-size: 7px 102px;
 }
 .gb-top-border-fix-r{
   background-image:url('https://svgshare.com/i/fff.svg');
   height: 100px;
-  width:59px;
+  width: 59px;
   background-position: -3px 0;
   background-repeat: no-repeat;
   background-size: auto 102px;
