@@ -147,7 +147,6 @@ html{
   left: 60px;
 }
 
-
 .gb-overlay-off{
   z-index: 998;
   position:fixed;
@@ -168,20 +167,20 @@ html{
 }
 
 .gb-top-border-fix-l{
-  background-image:url($gb-border-top-fix1);
+  background-image: url($gb-border-top-fix1);
   height: 102.1px; 
   width: 123px; 
   background-repeat: no-repeat;
   background-size: auto 102.1px;
 }
 .gb-top-border-flex-l{
-  background-image:url($gb-border-top-flex);
+  background-image: url($gb-border-top-flex);
   height: 102.1px; 
   margin-left: -1px;
   background-size: 7px 102.1px;
 }
 .gb-top-border-fix-m{
-  background-image:url($gb-border-top-fix2);
+  background-image: url($gb-border-top-fix2);
   height: 102.1px;
   width: 224px;
   background-position: -3px 0;
@@ -190,14 +189,14 @@ html{
   background-size: auto 102.1px;
 }
 .gb-top-border-flex-r{
-  background-image:url($gb-border-top-flex); 
+  background-image: url($gb-border-top-flex); 
   height: 102.1px;
   margin-left: -3px;
   margin-right: -3px;
   background-size: 7px 102px;
 }
 .gb-top-border-fix-r{
-  background-image:url($gb-border-top-fix3);
+  background-image: url($gb-border-top-fix3);
   height: 102.1px;
   width: 56px;
   background-position: -3px 0;
@@ -213,21 +212,21 @@ html{
 }
 
 .gb-bottom-border-fix-l{
-  background-image:url($gb-border-bottom-fix1);
+  background-image: url($gb-border-bottom-fix1);
   height: 93.5px;
   width: 190px;
   background-repeat: no-repeat;
   background-size: auto 93.5px;
 }
 .gb-bottom-border-flex-m{
-  background-image:url($gb-border-bottom-flex);
+  background-image: url($gb-border-bottom-flex);
   height: 93.5px; 
   margin-left: -3px;
   margin-right: -3px;
   background-size: 7px 93.5px;
 }
 .gb-bottom-border-fix-r{
-  background-image:url($gb-border-bottom-fix2);
+  background-image: url($gb-border-bottom-fix2);
   height: 93.5px;
   width: 208px;
   background-position: -3px 0;
@@ -245,28 +244,28 @@ html{
 }
 
 .gb-left-border-flex-t{
-  background-image:url($gb-border-left-flex);
+  background-image: url($gb-border-left-flex);
   width: 93.2px; 
   margin-top: -3px;
   margin-bottom: -3px;
   background-size: 93.2px 7px;
 }
 .gb-left-border-fix-on{
-  background-image:url($gb-border-left-fix-on);
+  background-image: url($gb-border-left-fix-on);
   width: 93.2px;
   height: 189px;
   background-repeat: no-repeat;
   background-size: 93.2px auto;
 }
 .gb-left-border-fix-off{
-  background-image:url($gb-border-left-fix-off);
+  background-image: url($gb-border-left-fix-off);
   width: 93.2px;
   height: 189px;
   background-repeat: no-repeat;
   background-size: 93.2px auto;
 }
 .gb-left-border-flex-b{
-  background-image:url($gb-border-left-flex);
+  background-image: url($gb-border-left-flex);
   width: 93.2px; 
   margin-top: -3px;
   margin-bottom: -3px;
@@ -282,7 +281,7 @@ html{
 }
 
 .gb-right-border-flex-m{
-  background-image:url($gb-border-right-flex);
+  background-image: url($gb-border-right-flex);
   width: 78.36px;
   height: 100%;
 }
