@@ -1,0 +1,158 @@
+<div id="bg-container" class="background-container character-bg-0"></div>
+
+<div id="glitch-screen" class="glitch-overlay blinking overlay-invisible"></div>
+<div id="gb-dark-screen" class="gb-overlay-off overlay-invisible"></div>
+
+
+<div class="gb-overlay-tb" style="top:0;">
+  
+  <div class="gb-top-buffer"> 
+     <div id="gb-on-off-button" class="gb-button gb-button-on"></div>
+  </div>
+  <div class="gb-top">
+    <div class="gb-flex-item gb-flex0" onclick="name">
+      <img src="https://svgshare.com/i/feD.svg">
+    </div>
+    <div class="gb-flex-item gb-flex10">
+       <img src="https://svgshare.com/i/fge.svg" class="gb-top-img-vfill">
+    </div>
+    <div class="gb-flex-item gb-flex0">
+       <img src="https://svgshare.com/i/fgL.svg">
+    </div>
+    <div class="gb-flex-item gb-flex5">
+       <img src="https://svgshare.com/i/fge.svg" class="gb-top-img-vfill">
+    </div> 
+    <div class="gb-flex-item gb-flex0">
+       <img src="https://svgshare.com/i/fff.svg">
+    </div>
+  </div>
+</div>
+
+<div class="gb-overlay-lr" style="left:0;">
+<div class="gb-top-buffer"></div>
+  <div class="gb-left">
+    <div class="gb-flex-item gb-flex2">
+       <img src="https://svgshare.com/i/g9X.svg" class="gb-left-img-hfill">
+    </div>
+    <div class="gb-flex-item gb-flex0">
+       <img id="gb-battery" src="https://svgshare.com/i/g82.svg">
+    </div>
+    <div class="gb-flex-item gb-flex10">
+       <img src="https://svgshare.com/i/g9X.svg" class="gb-left-img-hfill">
+    </div>
+  </div>
+</div>
+
+<div class="gb-overlay-lr" style="right:0;">
+<div class="gb-top-buffer"></div>
+  <div class="gb-right">
+    <div class="gb-flex-item gb-flex10">
+       <img src="https://svgshare.com/i/g7Q.svg" class="gb-right-img-hfill">
+    </div>
+  </div>
+</div>
+
+<div class="gb-overlay-tb" style="bottom:0;">
+  <div class="gb-bottom">
+    <div class="gb-flex-item gb-flex0">
+       <img src="https://svgshare.com/i/g7b.svg">
+    </div>
+    <div class="gb-flex-item gb-flex10">
+       <img src="https://svgshare.com/i/g6Z.svg" class="gb-bottom-img-vfill">
+    </div>
+    <div class="gb-flex-item gb-flex0">
+       <img src="https://svgshare.com/i/g8X.svg">
+    </div>
+  </div>
+</div>
+
+<script type="text/x-handlebars" data-template-name="/connectors/discovery-below/map">
+
+  <div class="footer-dex-border">
+    <div id="city-image" class="map-piece city-img-1"></div>
+    <div class="dex-info">
+       <div class="dex-info-top">
+         <div id="character-info-no" class="dex-info-text"></div>
+         <div id="character-info-img" class="dex-info-mon character-bg-0"></div>
+         <div id="character-info" class="dex-info-text"></div>
+       </div>
+       <div class="dex-info-border"></div>
+       <div id="character-flavor-text" class="dex-info-text"></div>
+    </div>
+  </div>
+</script>
+
+<script type="text/x-handlebars" data-template-name="topic-list-header.raw">
+  {{#if bulkSelectEnabled}}
+    <th class="star">
+      {{#if canBulkSelect}}
+        <button class="btn bulk-select" title="{{i18n "topics.bulk.toggle"}}">{{d-icon "list"}}</button>
+      {{/if}}
+    </th>
+  {{/if}}
+  {{raw "topic-list-header-column" order="default" name="topic.title" bulkSelectEnabled=bulkSelectEnabled showBulkToggle=toggleInTitle canBulkSelect=canBulkSelect}}
+  {{raw "topic-list-header-column" sortable="true" order="activity" forceName=(theme-i18n "last_post")}}
+</script>
+
+<script type="text/x-handlebars" data-template-name="list/topic-list-item.raw">
+  {{#if bulkSelectEnabled}}
+    <td class="star">
+      <input type="checkbox" class="bulk-select">
+    </td>
+  {{/if}}
+  
+  <td class="main-link clearfix">
+    <div class="creator-avatar">
+      <a href="/users/{{topic.creator.username}}" data-user-card="{{topic.creator.username}}">{{avatar topic.creator imageSize="large"}}</a>
+    </div>
+    {{raw "topic-status" topic=topic}}
+    {{topic-link topic}}
+    {{#if controller.showTopicPostBadges}}
+      {{raw "topic-post-badges" unread=topic.unread newPosts=topic.displayNewPosts unseen=topic.unseen url=topic.lastUnreadUrl}}
+    {{/if}}
+    {{raw "list/topic-excerpt" topic=model}}
+    <div class="creator">
+      {{~#if topic.creator ~}}
+      <span class="creator-username">
+        <a href="/users/{{topic.creator.username}}" data-auto-route="true" data-user-card="{{topic.creator.username}}">{{topic.creator.username}}</a> 
+      </span>
+    {{~/if ~}}
+      {{#if showCategory}}
+        {{category-link topic.category}}
+      {{/if}}
+      <span>{{discourse-tags topic mode="list"}}</span>
+
+      <a href={{topic.url}}>{{format-date topic.createdAt format="tiny"}}</a>
+      {{#if topic.posts_count}}
+        <span class="reply-comment">
+          {{d-icon "comment"}} {{topic.replyCount}}
+        </span>
+      {{/if}}
+    </div>
+  </td>
+
+  <td class="last-post">
+    <div class="poster-info">
+      <span class="editor">
+        <a href="/users/{{topic.last_poster_username}}" data-auto-route="true" data-user-card="{{topic.last_poster_username}}">{{topic.last_poster_username}}</a>
+      </span>
+      <a href="{{topic.lastPostUrl}}">{{format-date topic.bumpedAt format="tiny"}}</a>
+    </div>
+    <div class="poster-avatar">
+      <a href="{{topic.lastPostUrl}}" data-user-card="{{topic.last_poster_username}}">{{avatar topic.lastPosterUser imageSize="medium"}}</a>
+    </div>
+  </td>
+</script>
+
+<script>
+  (function(){
+    var TopicListItemView = require("discourse/components/topic-list-item").default;
+    TopicListItemView.reopen({
+        showCategory: function() {
+            return !this.get("controller.hideCategory") &&
+                    this.get("topic.creator") &&
+                    this.get("topic.category.name") !== "uncategorized";
+        }.property()
+    });
+  })();
+</script>
