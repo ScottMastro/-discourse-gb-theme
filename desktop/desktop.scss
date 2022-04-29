@@ -130,49 +130,6 @@ html{
 .gb-flex5  { flex: 5 5 auto; }
 .gb-flex10 { flex: 10 10 auto; }
 
-.gb-top-border-fix-l{
-  background-image:url($gb-border-top-fix1);
-  height: 100px; 
-  width:123px; 
-  background-repeat: no-repeat;
-  background-size: auto 102px;
-}
-.gb-top-border-flex-l{
-  background-image:url($gb-border-top-flex);
-  height: 100px; 
-  margin-left: -1px;
-  background-size: 7px 102px;
-}
-.gb-top-border-fix-m{
-  background-image:url($gb-border-top-fix2);
-  height: 100px;
-  width: 224px;
-  background-position: -3px 0;
-  margin-right: -3px; 
-  background-repeat: no-repeat;
-  background-size: auto 102px;
-}
-.gb-top-border-flex-r{
-  background-image:url($gb-border-top-flex); 
-  height: 100px;
-  margin-left: -3px;
-  margin-right: -3px;
-  background-size: 7px 102px;
-}
-.gb-top-border-fix-r{
-  background-image:url($gb-border-top-fix3);
-  height: 100px;
-  width: 59px;
-  background-position: -3px 0;
-  background-repeat: no-repeat;
-  background-size: auto 102px;
-
-}
-
-
-
-
-
 /* -----------------------------------GBOFF */
 .gb-button{
   position:absolute;
@@ -214,6 +171,44 @@ html{
   max-height: 102.1px;
 }
 
+.gb-top-border-fix-l{
+  background-image:url($gb-border-top-fix1);
+  height: 102.1px; 
+  width:123px; 
+  background-repeat: no-repeat;
+  background-size: auto 102.1px;
+}
+.gb-top-border-flex-l{
+  background-image:url($gb-border-top-flex);
+  height: 102.1px; 
+  margin-left: -1px;
+  background-size: 7px 102.1px;
+}
+.gb-top-border-fix-m{
+  background-image:url($gb-border-top-fix2);
+  height: 102.1px;
+  width: 224px;
+  background-position: -3px 0;
+  margin-right: -3px; 
+  background-repeat: no-repeat;
+  background-size: auto 102.1px;
+}
+.gb-top-border-flex-r{
+  background-image:url($gb-border-top-flex); 
+  height: 102.1px;
+  margin-left: -3px;
+  margin-right: -3px;
+  background-size: 7px 102px;
+}
+.gb-top-border-fix-r{
+  background-image:url($gb-border-top-fix3);
+  height: 102.1px;
+  width: 59px;
+  background-position: -3px 0;
+  background-repeat: no-repeat;
+  background-size: auto 102.1px;
+}
+
 /* -----------------------------------GBBOTTOM */
 .gb-bottom{
   width: 100%;
@@ -224,6 +219,31 @@ html{
   width: 100%;
   max-height: 93.5px;
 }
+
+.gb-bottom-border-fix-l{
+  background-image:url($gb-border-bottom-fix1);
+  height: 93.5px; 
+  width:123px; 
+  background-repeat: no-repeat;
+  background-size: auto 93.5px;
+}
+.gb-bottom-border-flex-m{
+  background-image:url($gb-border-bottom-flex);
+  height: 93.5px; 
+  margin-left: -1px;
+  background-size: 7px 93.5px;
+}
+.gb-bottom-border-fix-r{
+  background-image:url($gb-border-bottom-fix2);
+  height: 93.5px;
+  width: 59px;
+  background-position: -3px 0;
+  background-repeat: no-repeat;
+  background-size: auto 93.5px;
+
+}
+
+
 /* -----------------------------------GBLEFT */
 
 .gb-left{
