@@ -62,7 +62,7 @@ html{
   border-image: url($text-border) 38 round;
   max-width: 1110px;
   margin: 15px auto 100px auto;
-  background-color: #ffffff;
+  background-color: var(--e4-dex-bg);
 }
 .map-piece {
   display: flex;
@@ -81,7 +81,7 @@ html{
   flex: 0 0 auto;
   width: 20%;
   image-rendering: pixelated;
-  background-color: var(--e4-dex-bg);
+  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
