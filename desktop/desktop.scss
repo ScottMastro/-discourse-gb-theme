@@ -60,6 +60,9 @@ html{
   display: flex;
   border: 20px solid #ffffff;
   border-image: url($text-border) 38 round;
+  max-width: 1110px;
+  margin: 15px auto 100px auto;
+  background-color: #ffffff;
 }
 .map-piece {
   display: flex;
