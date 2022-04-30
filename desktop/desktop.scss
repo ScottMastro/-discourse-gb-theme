@@ -81,7 +81,7 @@ html{
   flex: 0 0 auto;
   width: 20%;
   image-rendering: pixelated;
-  background-color: #ffffff;
+  background-color: var(--e4-dex-bg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -101,7 +101,7 @@ html{
   background-color: #ffffff;
 }
 .dex-info-text {
-  color: #000000 !important;
+  color: var(--e4-dex-text) !important;
   display: flex;
   margin: auto;
   text-align: left;

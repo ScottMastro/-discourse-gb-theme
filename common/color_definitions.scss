@@ -2,12 +2,16 @@ $navbar-color: dark-light-choose(var(--header_background), #54624e);
 $navbar-hover: dark-light-choose(var(--secondary), #000000);
 $navbar-border: dark-light-choose(var(--tertiary), #141414);
 $navbar-text: dark-light-choose(#000000, #ffffff);
+$dex-text: dark-light-choose(#000000, #ffffff);
+$dex-bg: dark-light-choose(#ffffff, #000000);
 
 :root {
   --e4-navbar-color: #{$navbar-color};
   --e4-navbar-border: #{$navbar-border};
   --e4-navbar-text: #{$navbar-text};
   --e4-navbar-hover: #{$navbar-hover};
+  --e4-dex-text: #{$dex-text};
+  --e4-dex-bg: #{$dex-bg};
 }
 
 
