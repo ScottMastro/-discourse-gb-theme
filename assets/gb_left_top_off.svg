@@ -486,11 +486,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0930553"
-     inkscape:cx="16.47309"
-     inkscape:cy="-51.861918"
+     inkscape:zoom="2.1861106"
+     inkscape:cx="-55.806045"
+     inkscape:cy="15.021641"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="text6684-8"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="1853"
@@ -506,7 +506,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -548,16 +548,38 @@
        cx="700.04102"
        cy="19.408289"
        r="1.6508157" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:1.05833px;line-height:1.25;font-family:sans-serif;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0264583"
-       x="695.42554"
-       y="26.714401"
-       id="text6684-8"><tspan
-         sodipodi:role="line"
-         id="tspan6682-5"
-         x="695.42554"
-         y="26.714401"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583">BATTERY</tspan></text>
+    <g
+       aria-label="BATTERY"
+       id="text6684-8"
+       style="font-style:normal;font-weight:normal;font-size:1.05833px;line-height:1.25;font-family:sans-serif;fill:#999999;fill-opacity:1;stroke:none;stroke-width:0.0264583">
+      <path
+         d="m 695.86251,26.491573 h 0.5672 q 0.2127,0 0.3574,-0.128778 0.14469,-0.128777 0.14469,-0.303857 0,-0.175079 -0.14469,-0.30241 -0.1447,-0.127331 -0.3574,-0.127331 h -0.5672 z m 0.90723,-1.393402 v -0.0029 q 0,-0.125884 -0.10707,-0.221382 -0.10563,-0.09694 -0.26045,-0.09694 h -0.53971 v 0.632312 h 0.53971 q 0.15772,0 0.2619,-0.0926 0.10562,-0.09405 0.10562,-0.218488 z m -0.35884,-0.544049 q 0.24309,0 0.41672,0.16061 0.17508,0.159163 0.17508,0.383439 0,0.118649 -0.0535,0.224275 -0.0535,0.10418 -0.14758,0.177974 0.16495,0.08392 0.26189,0.232957 0.0984,0.147588 0.0984,0.325561 0,0.180867 -0.10128,0.332796 -0.0998,0.151929 -0.26769,0.237298 -0.16784,0.08537 -0.36318,0.08537 h -0.79726 v -2.160279 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1103" />
+      <path
+         d="m 697.90993,25.849132 h 0.70177 L 698.25864,25.1083 Z m -0.10563,0.222829 -0.26768,0.639546 h -0.24598 l 0.96511,-2.179089 0.96511,2.179089 h -0.24743 l -0.27202,-0.639546 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1105" />
+      <path
+         d="m 700.52744,24.554122 v 0.222829 h -0.54983 v 1.93745 h -0.22573 v -1.93745 h -0.55128 v -0.222829 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1107" />
+      <path
+         d="m 701.9165,24.554122 v 0.222829 h -0.54983 v 1.93745 h -0.22573 v -1.93745 h -0.55128 v -0.222829 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1109" />
+      <path
+         d="m 703.39383,25.357173 v 0.222828 h -1.01431 v 0.911572 h 1.09823 v 0.222828 h -1.32829 v -2.160279 h 1.33552 v 0.222829 h -1.10546 v 0.580222 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1111" />
+      <path
+         d="m 703.82791,26.714401 v -2.160279 h 0.80305 q 0.24887,0 0.42251,0.176527 0.17363,0.175079 0.17363,0.422506 0,0.196783 -0.11431,0.353053 -0.11286,0.154822 -0.29373,0.214147 l 0.55997,0.994046 h -0.2619 l -0.54405,-0.968002 h -0.51511 v 0.968002 z m 0.23006,-1.192277 h 0.58022 q 0.14615,0 0.25177,-0.107074 0.10707,-0.10852 0.10707,-0.261895 0,-0.15627 -0.10707,-0.266237 -0.10707,-0.109967 -0.259,-0.109967 h -0.57299 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1113" />
+      <path
+         d="m 705.31247,24.554122 h 0.26479 l 0.64823,0.998388 0.64533,-0.998388 h 0.26479 l -0.79726,1.234239 v 0.92604 h -0.23007 v -0.92604 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.96333px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.993224;fill:#999999;fill-opacity:1;stroke-width:0.0264583"
+         id="path1115" />
+    </g>
   </g>
 </svg>
