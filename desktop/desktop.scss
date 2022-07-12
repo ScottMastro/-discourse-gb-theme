@@ -107,7 +107,7 @@ html{
   font-size: 1.4em;
   padding: 10px;
 }
-
+composer-action
 /* -----------------------------------GB */
 .gb-overlay-tb{
   z-index: 1000;
@@ -493,6 +493,10 @@ img.avatar {
       color: $color-black;
     }
   }
+}
+
+#reply-control {
+ width: 80% !important; 
 }
 
 // Dropdowns
